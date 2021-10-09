@@ -1,0 +1,200 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+.topBar{
+    height: 10%;
+    width: 100%;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2%;
+    margin-bottom: -2.5%;
+}
+.topBar a{
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+.topBar a:hover{
+    color: #f5bd1f ;
+}
+header{
+    font-size: 2.5vw;
+    color: white; 
+    transition: 1s;
+}
+header:hover{
+    color: #f5bd1f;
+}
+#title{
+    text-align: center;
+    margin-top:-4%;
+    font-size: 20px;
+}
+#header{
+    width: 40%;
+    margin-left: 3%;
+}
+.triple-top{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 3vw;
+}
+.whoAmI{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1F2937;
+    padding-bottom: 2%;
+    margin-top: 2%;
+}
+.whoAmI img{
+    width: 250px;
+    height: 250px;
+    border: 3px solid white;
+    border-radius: 50%;
+    margin-top: 20%;
+}
+.helloBox{
+    width: 30%;
+    height: auto;
+    color: white;
+    border-radius: 4%;
+    margin-top:3%;
+}
+#imgBox{
+    width: 400px;
+    margin-left: -15%;
+}
+.helloBox h3{
+    font-size: 250%;
+    color: white;
+    padding-left: 3%;   
+    margin-top: 4%;
+    text-align: center;
+}
+.helloBox p{
+    font-size: 120%;
+    margin-left: 3%;
+    margin-right: 2%;
+    text-align: center;
+}
+.skillzAndContact{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 20px;
+}
+.skillzAndContact h3{
+    font-size: 35px;
+    margin-top: 20px;
+    transition: 1s;
+}
+.skillzAndContact h3:hover{
+    color: #f5bd1f;
+}
+#skillz{
+    border: 3px solid black;
+    border-radius: 5%;
+    width: 20%;
+    margin-top: 1%;
+}
+#education{
+    border: 3px solid black;
+    border-radius: 5%;
+    width: 20%;
+    margin-top: 1%;
+}
+#skillz h3, #skillz p, #education h3{
+    text-align: center;
+}
+#education ul{
+    margin-top: -5%;
+}
+#education span{
+    font-weight: bold;
+    font-size: 110%;
+}
+#skillz h3{
+    margin-bottom: 1%;
+}
+
+#contacts{
+    border: 3px solid black;
+    border-radius: 5%;
+    margin-top: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom: 50px;
+}
+#contacts p{
+    margin-top: -5%;
+}
+
+.projectSection h3{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 50px;
+    border-top: 5px solid#d3d3d3;
+    padding-top: 2.5%;
+    width: 80%;
+    margin-left: 10%;
+    transition: 1s;
+}
+.projectSection h3:hover{
+    border-top: 5px solid grey;
+}
+.outside-project{
+    display: flex;
+    justify-content: space-evenly;
+}
+.project1, .project2, .project3, .project4{
+    width: 200px;
+    height: auto;
+    border: 5px solid #0ba6ff;
+    text-align: center;
+    padding:1%;
+    border-radius: 20%;
+    transition: 1s;
+}
+.project1:hover, .project2:hover, .project3:hover, .project4:hover{
+    border-color: #f5bd1f;
+}
+.outside-project img{
+    width: 150px;
+    height: auto;
+}
+.outside-project p{
+    font-size: 110%;
+}
+.quoteOrPlacement{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    background-color: #d3d3d3;
+    text-align: center;
+    font-size: 20px;
+    transition:1s;
+}
+.quoteOrPlacement:hover{
+    background-color: #BBBBBB;
+}
+#website, .project1 img{
+    width: 150px;
+    border-radius: 10%;
+}
+#footer a{
+    color: #0ba6ff;
+    text-decoration: none;
+    transition: 1s;
+}
+#footer a:active{
+    color: #0ba6ff;
+
+}
+#footer a:hover{
+    color: #f5bd1f;
+}
